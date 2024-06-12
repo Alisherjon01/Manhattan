@@ -1,0 +1,248 @@
+@media (max-width: 1000px) {
+    .nav__list{
+        position: fixed;
+        z-index: 2;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: #141414;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        row-gap: 35px;
+        transform: translateY(-100%);
+        opacity: 0;
+        transition: 0.3s linear;
+        
+        
+        
+        
+}
+
+.active{
+    transform: translateY(0);
+    opacity: 1;
+    visibility: visible;
+}
+
+.nav__content-open{
+    display: block;
+}
+
+.nav__content-close{
+    display: block;
+    position: fixed;
+    z-index: 2;
+    top: 30px;
+    right: 30px;
+}
+
+.header__item{
+    flex-direction: column;
+    row-gap: 40px;
+    justify-content: center;
+    align-items: center;
+}
+
+.header__item-right-box img{
+    max-width: max-content;
+}
+
+.header__item-left{
+    max-width: max-content;
+    width: 100%;
+}
+
+.header__item-right{
+    max-width: max-content;
+    width: 100%;
+}
+
+.header__item-left-txt{
+    margin: 0 30px;
+}
+
+.header__item-left-text{
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+.header__item-right-title{
+    font-size: 30px;
+}
+
+.coment__item{
+    flex-direction: column;
+    row-gap: 35px;
+}
+
+.party__item{
+    flex-direction: column;
+    row-gap: 25px;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer__item{
+    flex-direction: column;
+    row-gap: 20px;
+    justify-content: center;
+    align-items: center;
+}
+}
+
+
+@media (max-width: 900px) {
+    .kitchen__cards-card{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+
+@media (max-width: 768px) {
+    .header__item{
+        flex-direction: column;
+        align-items: center;
+        
+    }
+
+    .header__item-left-txt{
+        font-size: 30px;
+        margin-left: 30px;
+        margin-right: 30px;
+    }
+
+    .header__item-left-text{
+        font-size: 15px;
+    }
+
+    .coment__item-title{
+        font-size: 30px;
+        padding: 20px 0;
+    }
+
+    .party__item-left{
+        max-width: max-content;
+        width: 100%;
+    }
+
+    iframe{
+        width: 300px;
+    }
+
+    .footer__item-right{
+        width: 400px;
+    }
+
+    .footer__bottom{
+        flex-direction: column;
+        row-gap: 20px;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .event__item{
+        flex-direction: column;
+        row-gap: 15px;
+        text-align: center;
+    }
+
+}
+
+
+@media (max-width: 500px) {
+    .nav__content{
+        flex-direction: column;
+        row-gap: 20px;
+    }
+
+    .header__item-left-txt{
+        font-size: 20px;
+        line-height: 40px;
+    }
+
+    .header__item-right-box{
+        height: 420px;
+    }
+
+    .header__item-right-box img{
+        width: 118px;
+            
+    }
+
+    .kitchen__cards-card-item{
+        column-gap: 25px;
+        max-width: max-content;
+        width: 100%;
+    }
+
+    .coment__item img{
+        max-width: max-content;
+        width: 100%;
+    }
+
+    .party__item-left-box{
+        padding: 5px 10px;
+    }
+
+    .party__item-left-label{
+        font-size: 15px;
+        padding: 20px 5px;
+    }
+
+    .party__item-right-box{
+        flex-direction: column;
+        row-gap: 25px;
+        justify-content: center;
+        align-items: center;
+    }
+
+
+    .party__item-right-title{
+        font-size: 25px;
+        width: 266px;
+        margin: 0 auto;
+    }
+
+    .footer__item-right{
+        width: 290px;
+        padding: 10px;
+    }
+
+    .line{
+        width: 280px;
+    }
+  
+    
+}
+
+@media (max-width: 378px) {
+    .kitchen__cards-card-item{
+        column-gap: 15px;
+        max-width: max-content;
+        width: 100%;
+    }
+
+    .kitchen__cards-card-item img{
+        width: 70px;
+        height: 70px;
+    }
+
+    .title{
+        font-size: 35px;
+        padding: 35px 0 50px;
+    }
+
+    .party__item-left-label::before{
+        right: 12px;
+    }
+
+    .footer__bottom-text{
+        font-size: 12px;
+    }
+}

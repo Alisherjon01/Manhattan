@@ -1,0 +1,19 @@
+@font-face {
+    font-family: 'stolzl_book';
+    src: url(../font/Stolzl/stolzl_book.otf);
+}
+
+@font-face {
+    font-family: 'stolzl_regular';
+    src: url(../font/Stolzl/stolzl_regular.otf);
+}
+
+@font-face {
+    font-family: 'gothampro_black';
+    src: url(../font/Gotham/gothampro_black.ttf);
+}
+
+@font-face {
+    font-family: 'gothampro_bold';
+    src: url(../font/Gotham/gothampro_bold.ttf);
+}
